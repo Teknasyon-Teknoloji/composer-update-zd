@@ -21,6 +21,16 @@ You can pass composer options and params e.g. :
 ./composer-update-zd.sh --no-dev
 ```
 
+Also you can download and run script at "composer.json" directory:
+```bash
+/usr/bin/curl -s -L "https://raw.githubusercontent.com/Teknasyon-Teknoloji/composer-update-zd/master/composer-update-zd.sh" | bash
+```
+
+"--no-dev" option
+```bash
+/usr/bin/curl -s -L "https://raw.githubusercontent.com/Teknasyon-Teknoloji/composer-update-zd/master/composer-update-zd.sh" | bash -s -- --no-dev
+```
+
 ## Contributing
 
 You can contribute by forking the repo and creating pull requests. You can also create issues or feature requests.
